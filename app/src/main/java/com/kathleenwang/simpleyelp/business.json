@@ -1,0 +1,843 @@
+{
+  "businesses": [
+    {
+      "id": "Se1xmgWc4JRWPG5MiZFzNg",
+      "alias": "golden-goat-coffee-san-francisco",
+      "name": "Golden Goat Coffee",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Hi0qxwxjIhODVsjsoPY09A/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/golden-goat-coffee-san-francisco?adjust_creative=CujsS1G2os9H1CN5-YDYlw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=CujsS1G2os9H1CN5-YDYlw",
+      "review_count": 79,
+      "categories": [
+        {
+          "alias": "coffee",
+          "title": "Coffee & Tea"
+        }
+      ],
+      "rating": 5.0,
+      "coordinates": {
+        "latitude": 37.78044,
+        "longitude": -122.39425
+      },
+      "transactions": [],
+      "location": {
+        "address1": "599 3rd St",
+        "address2": "",
+        "address3": null,
+        "city": "San Francisco",
+        "zip_code": "94107",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "599 3rd St",
+          "San Francisco, CA 94107"
+        ]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 664.3378848035953
+    },
+    {
+      "id": "NBHEZHWp5rtZDTEGiwsweA",
+      "alias": "the-point-san-francisco",
+      "name": "The Point",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/nwwc2rUaLgetTfdumX1iXg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/the-point-san-francisco?adjust_creative=CujsS1G2os9H1CN5-YDYlw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=CujsS1G2os9H1CN5-YDYlw",
+      "review_count": 48,
+      "categories": [
+        {
+          "alias": "coffee",
+          "title": "Coffee & Tea"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        },
+        {
+          "alias": "sandwiches",
+          "title": "Sandwiches"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 37.7779368,
+        "longitude": -122.3967825
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$",
+      "location": {
+        "address1": "505 Brannan St",
+        "address2": "",
+        "address3": null,
+        "city": "San Francisco",
+        "zip_code": "94107",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "505 Brannan St",
+          "San Francisco, CA 94107"
+        ]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 292.0319929608771
+    },
+    {
+      "id": "VD527WwvrhE3Nhzf5vaMNw",
+      "alias": "sightglass-coffee-san-francisco-7",
+      "name": "Sightglass Coffee",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/_NYmoABgVYzhWu-L4L-37A/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/sightglass-coffee-san-francisco-7?adjust_creative=CujsS1G2os9H1CN5-YDYlw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=CujsS1G2os9H1CN5-YDYlw",
+      "review_count": 1869,
+      "categories": [
+        {
+          "alias": "coffeeroasteries",
+          "title": "Coffee Roasteries"
+        }
+      ],
+      "rating": 4.0,
+      "coordinates": {
+        "latitude": 37.77696,
+        "longitude": -122.40851
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "270 Seventh St",
+        "address2": "",
+        "address3": null,
+        "city": "San Francisco",
+        "zip_code": "94103",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "270 Seventh St",
+          "San Francisco, CA 94103"
+        ]
+      },
+      "phone": "+14158611313",
+      "display_phone": "(415) 861-1313",
+      "distance": 930.191696412874
+    },
+    {
+      "id": "S_KR9tuaPqEGACNrux24mA",
+      "alias": "cafe-lambretta-san-francisco-3",
+      "name": "Cafe Lambretta",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/YCkB3F7K_8T8Chipu0HcAA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/cafe-lambretta-san-francisco-3?adjust_creative=CujsS1G2os9H1CN5-YDYlw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=CujsS1G2os9H1CN5-YDYlw",
+      "review_count": 82,
+      "categories": [
+        {
+          "alias": "coffee",
+          "title": "Coffee & Tea"
+        },
+        {
+          "alias": "bakeries",
+          "title": "Bakeries"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 37.780492,
+        "longitude": -122.390556
+      },
+      "transactions": [
+        "pickup",
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "700 2nd St",
+        "address2": "",
+        "address3": null,
+        "city": "San Francisco",
+        "zip_code": "94107",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "700 2nd St",
+          "San Francisco, CA 94107"
+        ]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 881.735278060652
+    },
+    {
+      "id": "Aakxqb8yKmBOdcb84tGeJA",
+      "alias": "milk-sf-san-francisco",
+      "name": "Milk SF",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/H5Orp87cD94w-mhUnIA8Lw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/milk-sf-san-francisco?adjust_creative=CujsS1G2os9H1CN5-YDYlw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=CujsS1G2os9H1CN5-YDYlw",
+      "review_count": 10,
+      "categories": [
+        {
+          "alias": "themedcafes",
+          "title": "Themed Cafes"
+        }
+      ],
+      "rating": 5.0,
+      "coordinates": {
+        "latitude": 37.76785,
+        "longitude": -122.42248
+      },
+      "transactions": [],
+      "location": {
+        "address1": "302 Valencia St",
+        "address2": null,
+        "address3": "",
+        "city": "San Francisco",
+        "zip_code": "94103",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "302 Valencia St",
+          "San Francisco, CA 94103"
+        ]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 2276.1241534476126
+    },
+    {
+      "id": "lNbKeOfCMTNkoihZHqrbrg",
+      "alias": "blue-bottle-coffee-san-francisco-21",
+      "name": "Blue Bottle Coffee",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/mjMHObH17E2NykWJufuVSg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/blue-bottle-coffee-san-francisco-21?adjust_creative=CujsS1G2os9H1CN5-YDYlw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=CujsS1G2os9H1CN5-YDYlw",
+      "review_count": 2233,
+      "categories": [
+        {
+          "alias": "coffee",
+          "title": "Coffee & Tea"
+        }
+      ],
+      "rating": 4.0,
+      "coordinates": {
+        "latitude": 37.7824664727379,
+        "longitude": -122.407753326389
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "66 Mint St",
+        "address2": "",
+        "address3": "",
+        "city": "San Francisco",
+        "zip_code": "94103",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "66 Mint St",
+          "San Francisco, CA 94103"
+        ]
+      },
+      "phone": "+15106533394",
+      "display_phone": "(510) 653-3394",
+      "distance": 1157.7529178517964
+    },
+    {
+      "id": "-9g5fZ0w0w3teWOO69nqmw",
+      "alias": "radiator-coffee-salon-san-francisco",
+      "name": "Radiator Coffee Salon",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/jlp-gU10HYo6ZugScFndDw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/radiator-coffee-salon-san-francisco?adjust_creative=CujsS1G2os9H1CN5-YDYlw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=CujsS1G2os9H1CN5-YDYlw",
+      "review_count": 8,
+      "categories": [
+        {
+          "alias": "coffee",
+          "title": "Coffee & Tea"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 37.785803,
+        "longitude": -122.39673
+      },
+      "transactions": [],
+      "location": {
+        "address1": "299 2nd St",
+        "address2": "",
+        "address3": null,
+        "city": "San Francisco",
+        "zip_code": "94105",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "299 2nd St",
+          "San Francisco, CA 94105"
+        ]
+      },
+      "phone": "+14159470700",
+      "display_phone": "(415) 947-0700",
+      "distance": 1171.8817091193673
+    },
+    {
+      "id": "CTYe2aZzmRavw0GMV490BQ",
+      "alias": "telescope-coffee-san-francisco-3",
+      "name": "Telescope Coffee",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/053m6x1BJ3Hdz41KtV7n4Q/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/telescope-coffee-san-francisco-3?adjust_creative=CujsS1G2os9H1CN5-YDYlw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=CujsS1G2os9H1CN5-YDYlw",
+      "review_count": 23,
+      "categories": [
+        {
+          "alias": "bakeries",
+          "title": "Bakeries"
+        },
+        {
+          "alias": "coffee",
+          "title": "Coffee & Tea"
+        },
+        {
+          "alias": "desserts",
+          "title": "Desserts"
+        }
+      ],
+      "rating": 5.0,
+      "coordinates": {
+        "latitude": 37.77211,
+        "longitude": -122.4091
+      },
+      "transactions": [],
+      "location": {
+        "address1": "451 9th St",
+        "address2": null,
+        "address3": "",
+        "city": "San Francisco",
+        "zip_code": "94103",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "451 9th St",
+          "San Francisco, CA 94103"
+        ]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 1031.292418067147
+    },
+    {
+      "id": "BrGq6WWjVNM8h44KPKl0Xw",
+      "alias": "andytown-coffee-roasters-san-francisco-3",
+      "name": "Andytown Coffee Roasters",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/rYQqveQXbtmA1egab7Dreg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/andytown-coffee-roasters-san-francisco-3?adjust_creative=CujsS1G2os9H1CN5-YDYlw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=CujsS1G2os9H1CN5-YDYlw",
+      "review_count": 69,
+      "categories": [
+        {
+          "alias": "coffeeroasteries",
+          "title": "Coffee Roasteries"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 37.789744,
+        "longitude": -122.39531
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "181 Fremont St",
+        "address2": "Fl 7",
+        "address3": null,
+        "city": "San Francisco",
+        "zip_code": "94105",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "181 Fremont St",
+          "Fl 7",
+          "San Francisco, CA 94105"
+        ]
+      },
+      "phone": "+14157539775",
+      "display_phone": "(415) 753-9775",
+      "distance": 1622.8150291340125
+    },
+    {
+      "id": "V8wOXvAbS9ghCMuYlPQVww",
+      "alias": "spro-san-francisco-9",
+      "name": "SPRO",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/k_N5VkOXEYe2s-SlxnvUyw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/spro-san-francisco-9?adjust_creative=CujsS1G2os9H1CN5-YDYlw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=CujsS1G2os9H1CN5-YDYlw",
+      "review_count": 249,
+      "categories": [
+        {
+          "alias": "coffee",
+          "title": "Coffee & Tea"
+        },
+        {
+          "alias": "foodtrucks",
+          "title": "Food Trucks"
+        },
+        {
+          "alias": "waffles",
+          "title": "Waffles"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 37.77089814034783,
+        "longitude": -122.39136027268194
+      },
+      "transactions": [
+        "pickup",
+        "delivery"
+      ],
+      "price": "$",
+      "location": {
+        "address1": "601 Mission Bay Blvd N",
+        "address2": "",
+        "address3": "",
+        "city": "San Francisco",
+        "zip_code": "94158",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "601 Mission Bay Blvd N",
+          "San Francisco, CA 94158"
+        ]
+      },
+      "phone": "+14159717908",
+      "display_phone": "(415) 971-7908",
+      "distance": 774.7428272935076
+    },
+    {
+      "id": "zDxUd-G0VBph98d7OBB61w",
+      "alias": "cento-coffee-san-francisco-3",
+      "name": "Cento Coffee",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/0d0rmbetFUQDti6JsvAi1w/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/cento-coffee-san-francisco-3?adjust_creative=CujsS1G2os9H1CN5-YDYlw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=CujsS1G2os9H1CN5-YDYlw",
+      "review_count": 4,
+      "categories": [
+        {
+          "alias": "coffee",
+          "title": "Coffee & Tea"
+        }
+      ],
+      "rating": 4.0,
+      "coordinates": {
+        "latitude": 37.778174412814415,
+        "longitude": -122.39386554749841
+      },
+      "transactions": [],
+      "location": {
+        "address1": "242 Townsend St",
+        "address2": "",
+        "address3": null,
+        "city": "San Francisco",
+        "zip_code": "94107",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "242 Townsend St",
+          "San Francisco, CA 94107"
+        ]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 493.2153444080004
+    },
+    {
+      "id": "kyVarru3AiouGrCO1gZxuw",
+      "alias": "iron-horse-coffee-san-francisco-2",
+      "name": "Iron Horse Coffee",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/CaiOHeV147HoltHAt-soIw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/iron-horse-coffee-san-francisco-2?adjust_creative=CujsS1G2os9H1CN5-YDYlw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=CujsS1G2os9H1CN5-YDYlw",
+      "review_count": 110,
+      "categories": [
+        {
+          "alias": "coffee",
+          "title": "Coffee & Tea"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 37.7882923185825,
+        "longitude": -122.404029965401
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$",
+      "location": {
+        "address1": "25 Maiden Ln",
+        "address2": null,
+        "address3": "",
+        "city": "San Francisco",
+        "zip_code": "94108",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "25 Maiden Ln",
+          "San Francisco, CA 94108"
+        ]
+      },
+      "phone": "+14154042877",
+      "display_phone": "(415) 404-2877",
+      "distance": 1533.3508632205906
+    },
+    {
+      "id": "24ym9XJUS2i9JlSFEJeZ2w",
+      "alias": "the-coffee-movement-san-francisco",
+      "name": "The Coffee Movement",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/TyHWNBOLomkcSCTi3ZZXvA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/the-coffee-movement-san-francisco?adjust_creative=CujsS1G2os9H1CN5-YDYlw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=CujsS1G2os9H1CN5-YDYlw",
+      "review_count": 296,
+      "categories": [
+        {
+          "alias": "coffee",
+          "title": "Coffee & Tea"
+        }
+      ],
+      "rating": 5.0,
+      "coordinates": {
+        "latitude": 37.79483,
+        "longitude": -122.4103
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "1030 Washington St",
+        "address2": null,
+        "address3": "",
+        "city": "San Francisco",
+        "zip_code": "94108",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "1030 Washington St",
+          "San Francisco, CA 94108"
+        ]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 2423.0321477518332
+    },
+    {
+      "id": "iuOjXmZ_C88EF0LCtoHCUA",
+      "alias": "cafe-réveille-san-francisco-6",
+      "name": "Cafe Réveille",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/cjk6JqlgMs38tuwtCyUffA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/cafe-r%C3%A9veille-san-francisco-6?adjust_creative=CujsS1G2os9H1CN5-YDYlw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=CujsS1G2os9H1CN5-YDYlw",
+      "review_count": 401,
+      "categories": [
+        {
+          "alias": "cafes",
+          "title": "Cafes"
+        },
+        {
+          "alias": "sandwiches",
+          "title": "Sandwiches"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        }
+      ],
+      "rating": 3.5,
+      "coordinates": {
+        "latitude": 37.7734805146623,
+        "longitude": -122.391614224992
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "610 Long Bridge St",
+        "address2": "",
+        "address3": "",
+        "city": "San Francisco",
+        "zip_code": "94158",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "610 Long Bridge St",
+          "San Francisco, CA 94158"
+        ]
+      },
+      "phone": "+14155807260",
+      "display_phone": "(415) 580-7260",
+      "distance": 611.3474127389479
+    },
+    {
+      "id": "v3hMOlyGUQQfGZQMXFNoZg",
+      "alias": "sextant-coffee-roasters-san-francisco",
+      "name": "Sextant Coffee Roasters",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/MdVTLgA1pedGlA45h2BBsg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/sextant-coffee-roasters-san-francisco?adjust_creative=CujsS1G2os9H1CN5-YDYlw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=CujsS1G2os9H1CN5-YDYlw",
+      "review_count": 225,
+      "categories": [
+        {
+          "alias": "coffee",
+          "title": "Coffee & Tea"
+        },
+        {
+          "alias": "coffeeroasteries",
+          "title": "Coffee Roasteries"
+        }
+      ],
+      "rating": 4.0,
+      "coordinates": {
+        "latitude": 37.7724716,
+        "longitude": -122.4129463
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "1415 Folsom St",
+        "address2": null,
+        "address3": "",
+        "city": "San Francisco",
+        "zip_code": "94103",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "1415 Folsom St",
+          "San Francisco, CA 94103"
+        ]
+      },
+      "phone": "+14153551415",
+      "display_phone": "(415) 355-1415",
+      "distance": 1337.2109613936018
+    },
+    {
+      "id": "hWE2CDphzZ3nXlwv3Uk6Og",
+      "alias": "philz-coffee-san-francisco-51",
+      "name": "Philz Coffee",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/jCJzagZrJGh--JTV_w3JDw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/philz-coffee-san-francisco-51?adjust_creative=CujsS1G2os9H1CN5-YDYlw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=CujsS1G2os9H1CN5-YDYlw",
+      "review_count": 1416,
+      "categories": [
+        {
+          "alias": "coffee",
+          "title": "Coffee & Tea"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 37.7756640166767,
+        "longitude": -122.39345180371
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$",
+      "location": {
+        "address1": "201 Berry St",
+        "address2": "",
+        "address3": "",
+        "city": "San Francisco",
+        "zip_code": "94158",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "201 Berry St",
+          "San Francisco, CA 94158"
+        ]
+      },
+      "phone": "+14158759943",
+      "display_phone": "(415) 875-9943",
+      "distance": 416.0972701330075
+    },
+    {
+      "id": "YLr8XxcQBYsKcKDHwaYnXQ",
+      "alias": "blue-bottle-coffee-san-francisco-19",
+      "name": "Blue Bottle Coffee",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/9cjzOZPdlHHLm_GQijfz3Q/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/blue-bottle-coffee-san-francisco-19?adjust_creative=CujsS1G2os9H1CN5-YDYlw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=CujsS1G2os9H1CN5-YDYlw",
+      "review_count": 138,
+      "categories": [
+        {
+          "alias": "coffee",
+          "title": "Coffee & Tea"
+        }
+      ],
+      "rating": 4.0,
+      "coordinates": {
+        "latitude": 37.78242,
+        "longitude": -122.39323
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "2 S Park St",
+        "address2": "",
+        "address3": null,
+        "city": "San Francisco",
+        "zip_code": "94107",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "2 S Park St",
+          "San Francisco, CA 94107"
+        ]
+      },
+      "phone": "+15106533394",
+      "display_phone": "(510) 653-3394",
+      "distance": 900.6788656618957
+    },
+    {
+      "id": "LPlebkRnRpmbrjz9Z8sYPg",
+      "alias": "farleys-san-francisco",
+      "name": "Farley's",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/N-uqEDfzMeR31CgwverM0Q/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/farleys-san-francisco?adjust_creative=CujsS1G2os9H1CN5-YDYlw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=CujsS1G2os9H1CN5-YDYlw",
+      "review_count": 666,
+      "categories": [
+        {
+          "alias": "coffee",
+          "title": "Coffee & Tea"
+        }
+      ],
+      "rating": 4.0,
+      "coordinates": {
+        "latitude": 37.7625322,
+        "longitude": -122.3959853
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$",
+      "location": {
+        "address1": "1315 18th St",
+        "address2": "",
+        "address3": "",
+        "city": "San Francisco",
+        "zip_code": "94107",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "1315 18th St",
+          "San Francisco, CA 94107"
+        ]
+      },
+      "phone": "+14156481545",
+      "display_phone": "(415) 648-1545",
+      "distance": 1435.3953729265772
+    },
+    {
+      "id": "E8RJkjfdcwgtyoPMjQ_Olg",
+      "alias": "four-barrel-coffee-san-francisco",
+      "name": "Four Barrel Coffee",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/NBm7cKsFwecEm82oP_-qUg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/four-barrel-coffee-san-francisco?adjust_creative=CujsS1G2os9H1CN5-YDYlw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=CujsS1G2os9H1CN5-YDYlw",
+      "review_count": 2117,
+      "categories": [
+        {
+          "alias": "coffee",
+          "title": "Coffee & Tea"
+        }
+      ],
+      "rating": 4.0,
+      "coordinates": {
+        "latitude": 37.7670169511878,
+        "longitude": -122.42184275
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$",
+      "location": {
+        "address1": "375 Valencia St",
+        "address2": "",
+        "address3": "",
+        "city": "San Francisco",
+        "zip_code": "94103",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "375 Valencia St",
+          "San Francisco, CA 94103"
+        ]
+      },
+      "phone": "+14158964289",
+      "display_phone": "(415) 896-4289",
+      "distance": 2276.87162506575
+    },
+    {
+      "id": "3KtEvuj2kEnBX63GJn-8ug",
+      "alias": "la-lucha-coffee-bar-san-francisco",
+      "name": "La Lucha Coffee Bar",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/EeXRw3tetXcpVmssxPHuHw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/la-lucha-coffee-bar-san-francisco?adjust_creative=CujsS1G2os9H1CN5-YDYlw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=CujsS1G2os9H1CN5-YDYlw",
+      "review_count": 18,
+      "categories": [
+        {
+          "alias": "coffee",
+          "title": "Coffee & Tea"
+        }
+      ],
+      "rating": 4.0,
+      "coordinates": {
+        "latitude": 37.7650676784283,
+        "longitude": -122.399846653878
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$",
+      "location": {
+        "address1": "1600 17th St",
+        "address2": "",
+        "address3": "",
+        "city": "San Francisco",
+        "zip_code": "94107",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "1600 17th St",
+          "San Francisco, CA 94107"
+        ]
+      },
+      "phone": "+14152521330",
+      "display_phone": "(415) 252-1330",
+      "distance": 1150.118752960984
+    }
+  ],
+  "total": 240,
+  "region": {
+    "center": {
+      "longitude": -122.39816665649414,
+      "latitude": 37.77532535021419
+    }
+  }
+}

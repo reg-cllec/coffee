@@ -11,8 +11,8 @@ public interface YelpBusinessSearchService {
     fun searchRestaurant(
         @Header("Authorization") authorization: String,
         @Query("term") searchTerm :String,
-        @Query("location") location:String) :
+        @Query("location") location:String,
+        @Query("limit") limit:String) :
             // what we get back:
             Call<YelpSearchResult>
-
 }

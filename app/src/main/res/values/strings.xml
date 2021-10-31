@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">SimpleYelp</string>
+    <string name="app_name">Yelp Coffee</string>
+    <string name="msg_failure">Failure:</string>
+    <string name="msg_did_not_receive_body">Did not receive body, exiting</string>
+    <string name="num_reviews">%1d reviews</string>
+    <string name="open">Open</string>
+    <string name="closed">Closed</string>
 </resources>
