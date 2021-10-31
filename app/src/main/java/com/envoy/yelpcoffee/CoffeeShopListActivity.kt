@@ -54,16 +54,12 @@ class CoffeeShopListActivity : AppCompatActivity() {
                 super.onScrolled(recyclerView, dx, dy)
                 if (!recyclerView.canScrollVertically(1)) {
                     // LOAD MORE
-                        if (OFFSET < TOTAL) {
-                            OFFSET += 10
-                            requestSearchResult(yelpBusinessSearchService, coffeeShops, adapter)
-                        } else {
-                            Toast.makeText(
-                                this@CoffeeShopListActivity,
-                                getString(R.string.no_more),
-                                Toast.LENGTH_LONG
-                            ).show()
-                        }
+                    if (OFFSET < TOTAL) {
+                        OFFSET += 10 // paging
+                    } else {
+                        OFFSET = 0 // start over again
+                    }
+                    requestSearchResult(yelpBusinessSearchService, coffeeShops, adapter)
                 }
             }
         })

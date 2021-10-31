@@ -69,10 +69,10 @@ class CoffeeShopDetailActivity : AppCompatActivity() {
                         .transform(RoundedCornersTransformation(RADIUS, MARGIN))
                         .into(secondtvImage)
                     nextImageButton.setOnClickListener {
-                        int = if (int + 1 < 3) { // hacky here to only show the first 3 images
+                        int = if (int + 1 < body.photos.size) {
                             int + 1
                         } else {
-                            0
+                            0  // start over again
                         }
                         Glide.with(context).load(body.photos[int])
                             .fitCenter()
