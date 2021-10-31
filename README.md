@@ -1,5 +1,5 @@
 # YelpCoffee&Tea
-- 3 Different Activities (Screens): Home, Restaurant List, Restaurant View 
+- 2 Different Activities (Screens): coffee shop List, coffee shop detail View 
 - Android app displays coffee/tea locations in specified city through a `RecyclerView`
 - Uses [RetroFit](https://square.github.io/retrofit/) library to retreive [Yelp API](https://www.yelp.com/developers) data asynchronously 
 - Images rendered and cached using [Glide Library](https://github.com/bumptech/glide)

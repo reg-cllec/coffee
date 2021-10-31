@@ -20,8 +20,8 @@ class CoffeeShopsAdapter(val context: Context, val coffeeShops: List<YelpCoffeeS
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-    val restaurant = coffeeShops[position]
-        holder.bind(restaurant)
+    val coffeeShop = coffeeShops[position]
+        holder.bind(coffeeShop)
     }
 
     override fun getItemCount() = coffeeShops.size

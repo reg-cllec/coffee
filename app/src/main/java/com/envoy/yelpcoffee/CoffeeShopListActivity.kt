@@ -42,7 +42,7 @@ class CoffeeShopListActivity : AppCompatActivity() {
 
     private fun setRecyclerViewOnScrollListener(
         yelpBusinessSearchService: YelpBusinessSearchService,
-        restaurants: MutableList<YelpCoffeeShops>,
+        coffeeShops: MutableList<YelpCoffeeShops>,
         adapter: CoffeeShopsAdapter
     ) {
         rvCoffeeShops.addOnScrollListener(object : RecyclerView.OnScrollListener() {
@@ -52,7 +52,7 @@ class CoffeeShopListActivity : AppCompatActivity() {
                     // LOAD MORE
                         if (OFFSET < TOTAL) {
                             OFFSET += 10
-                            requestSearchResult(yelpBusinessSearchService, restaurants, adapter)
+                            requestSearchResult(yelpBusinessSearchService, coffeeShops, adapter)
                         } else {
                             Toast.makeText(
                                 this@CoffeeShopListActivity,
@@ -82,7 +82,7 @@ class CoffeeShopListActivity : AppCompatActivity() {
                         return
                     }
                     coffeeShops.addAll(body.coffeeShops)
-                    if(TOTAL == -1) { // init total restaurant count
+                    if(TOTAL == -1) { // init total coffee shop count
                         TOTAL = body.total
                     }
                     adapter.notifyDataSetChanged()
@@ -92,7 +92,7 @@ class CoffeeShopListActivity : AppCompatActivity() {
                     Log.d(TAG_MAIN_ACTIVITY, getString(R.string.msg_failure), t)
                     Toast.makeText(
                         this@CoffeeShopListActivity,
-                        getString(R.string.network_error),
+                        t.message,
                         Toast.LENGTH_LONG
                     ).show()
                 }
@@ -101,11 +101,11 @@ class CoffeeShopListActivity : AppCompatActivity() {
 
     private fun setRecyclerView(adapter: CoffeeShopsAdapter) {
         rvCoffeeShops.adapter = adapter
-        adapter.onItemClick = { restaurant ->
+        adapter.onItemClick = { coffeeShop ->
             // do something with your item
-            Log.d(TAG_MAIN_ACTIVITY, restaurant.toString())
+            Log.d(TAG_MAIN_ACTIVITY, coffeeShop.toString())
             val intent = Intent(this, CoffeeShopDetailActivity::class.java)
-            intent.putExtra(INTENT_EXTRA_COFFEE_SHOP, restaurant)
+            intent.putExtra(INTENT_EXTRA_COFFEE_SHOP, coffeeShop)
             startActivity(intent)
         }
         rvCoffeeShops.layoutManager = LinearLayoutManager(this)
