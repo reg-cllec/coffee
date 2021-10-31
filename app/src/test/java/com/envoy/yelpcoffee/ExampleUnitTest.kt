@@ -1,4 +1,4 @@
-package com.kathleenwang.simpleyelp
+package com.envoy.yelpcoffee
 
 import org.junit.Test
 

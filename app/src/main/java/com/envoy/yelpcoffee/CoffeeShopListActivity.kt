@@ -7,7 +7,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.kathleenwang.simpleyelp.R
 import kotlinx.android.synthetic.main.activity_coffee_shop_list.*
 import retrofit2.Call
 import retrofit2.Callback
