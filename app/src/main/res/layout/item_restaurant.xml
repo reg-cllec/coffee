@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Phils Coffee" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="@android:style/Widget.DeviceDefault.Light.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rating="4.5"
+        android:stepSize=".5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvName"
+        app:layout_constraintTop_toBottomOf="@+id/tvName"
+        app:layout_constraintVertical_bias="0.136" />
+
+    <TextView
+        android:id="@+id/tvNumReviews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ratingBar"
+        app:layout_constraintTop_toBottomOf="@+id/tvName"
+        app:layout_constraintVertical_bias="0.142"
+        tools:text="123 Reviews" />
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="28dp"
+        android:text="TextView"
+        android:textColor="#534848"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/ratingBar"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="321 Harris St" />
+
+    <TextView
+        android:id="@+id/tvCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="TextView"
+        android:textColor="#EC9696"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvAddress"
+        app:layout_constraintTop_toBottomOf="@+id/tvAddress"
+        tools:text="Coffee &amp; Tea" />
+
+    <TextView
+        android:id="@+id/tvDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        android:textColor="#534848"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toEndOf="@+id/tvNumReviews"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="1.7 mi" />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="TextView"
+        android:textColor="#03A9F4"
+        app:layout_constraintEnd_toEndOf="@+id/tvDistance"
+        app:layout_constraintTop_toBottomOf="@+id/tvDistance"
+        tools:text="$$$$" />
+</androidx.constraintlayout.widget.ConstraintLayout>
