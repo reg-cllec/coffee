@@ -27,6 +27,9 @@ class CoffeeShopListActivity : AppCompatActivity() {
         getCoffeeShops()
     }
 
+    /**
+     *fetch coffee shop list from yelp api and render it on view
+     */
     private fun getCoffeeShops() {
         val coffeeShops = mutableListOf<YelpCoffeeShops>()
         val adapter = CoffeeShopsAdapter(this, coffeeShops)
@@ -40,6 +43,9 @@ class CoffeeShopListActivity : AppCompatActivity() {
         setRecyclerViewOnScrollListener(yelpBusinessSearchService, coffeeShops, adapter)
     }
 
+    /**
+     * set onScrolled listener to perform load more when user scroll up
+     */
     private fun setRecyclerViewOnScrollListener(
         yelpBusinessSearchService: YelpBusinessSearchService,
         coffeeShops: MutableList<YelpCoffeeShops>,
@@ -65,6 +71,9 @@ class CoffeeShopListActivity : AppCompatActivity() {
         })
     }
 
+    /**
+     * call yelp api and update recycler view adapter
+     */
     private fun requestSearchResult(
         yelpBusinessSearchService: YelpBusinessSearchService,
         coffeeShops: MutableList<YelpCoffeeShops>,
@@ -99,6 +108,9 @@ class CoffeeShopListActivity : AppCompatActivity() {
             })
     }
 
+    /**
+     * set up single item onclick listener
+     */
     private fun setRecyclerView(adapter: CoffeeShopsAdapter) {
         rvCoffeeShops.adapter = adapter
         adapter.onItemClick = { coffeeShop ->

@@ -30,6 +30,9 @@ class CoffeeShopDetailActivity : AppCompatActivity() {
         }
     }
 
+    /**
+     * fetch coffee shop details and render it on views
+     */
     private fun getData(context: Context, id: String) {
         val retrofit = Retrofit.Builder()
             .baseUrl(BASE_URL)

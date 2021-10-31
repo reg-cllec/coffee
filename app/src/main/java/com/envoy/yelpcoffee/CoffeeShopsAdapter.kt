@@ -30,6 +30,10 @@ class CoffeeShopsAdapter(val context: Context, val coffeeShops: List<YelpCoffeeS
     init {
         itemView.setOnClickListener { onItemClick?.invoke(coffeeShops[adapterPosition])}
     }
+
+        /**
+         * render coffee shop detail page
+         */
         fun bind(coffeeShop: YelpCoffeeShops) {
             itemView.tvName.text = coffeeShop.name
             itemView.ratingBar.rating = coffeeShop.rating.toFloat()
