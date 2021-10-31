@@ -14,10 +14,9 @@ import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-private var OFFSET = 0
-private var TOTAL = -1
-
 class CoffeeShopListActivity : AppCompatActivity() {
+    private var OFFSET = 0
+    private var TOTAL = -1
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_coffee_shop_list)
