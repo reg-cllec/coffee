@@ -1,4 +1,4 @@
-package com.kathleenwang.simpleyelp
+package com.envoy.yelpcoffee
 
 import android.content.Context
 import android.content.Intent
@@ -7,49 +7,45 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import com.bumptech.glide.Glide
+import com.kathleenwang.simpleyelp.R
 import jp.wasabeef.glide.transformations.RoundedCornersTransformation
-import kotlinx.android.synthetic.main.activity_second_restaurant.*
+import kotlinx.android.synthetic.main.activity_coffee_shop_detail.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-private const val TAG = "SecondActivity"
-private const val RADIUS = 20
-private const val MARGIN = 5
-
-
-class SecondRestaurantActivity : AppCompatActivity() {
+class CoffeeShopDetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_second_restaurant)
-        val restaurant = intent.getParcelableExtra<YelpRestaurants>(INTENT_EXTRA_RESTAURANT)
-        if (restaurant !== null) {
-            secondRatingBar.rating = restaurant.rating.toFloat()
-            displayAddress.text = restaurant.location.address
-            secondtvName.text = restaurant.name
-            val id = restaurant.id
-            getData(this, id, restaurant)
+        setContentView(R.layout.activity_coffee_shop_detail)
+        val coffeeShop = intent.getParcelableExtra<YelpCoffeeShops>(INTENT_EXTRA_COFFEE_SHOP)
+        if (coffeeShop !== null) {
+            secondRatingBar.rating = coffeeShop.rating.toFloat()
+            displayAddress.text = coffeeShop.location.address
+            secondtvName.text = coffeeShop.name
+            val id = coffeeShop.id
+            getData(this, id)
         }
     }
 
-    private fun getData(context: Context, id: String, restaurant: YelpRestaurants) {
+    private fun getData(context: Context, id: String) {
         val retrofit = Retrofit.Builder()
             .baseUrl(BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
         val yelpBusinessService = retrofit.create(YelpBusinessService::class.java)
-        yelpBusinessService.getRestaurantById(AUTHORIZATION, id)
-            .enqueue(object : Callback<YelpRestaurantResult> {
+        yelpBusinessService.getCoffeeShopById(AUTHORIZATION, id)
+            .enqueue(object : Callback<YelpCoffeeShopDetailResult> {
                 override fun onResponse(
-                    call: Call<YelpRestaurantResult>,
-                    response: Response<YelpRestaurantResult>
+                    call: Call<YelpCoffeeShopDetailResult>,
+                    response: Response<YelpCoffeeShopDetailResult>
                 ) {
-                    Log.d(TAG, "Response ${response}")
+                    Log.d(TAG_SECOND_ACTIVITY, "Response ${response}")
                     val body = response.body()
                     if (body == null) {
-                        Log.w(TAG, getString(R.string.msg_did_not_receive_body))
+                        Log.w(TAG_SECOND_ACTIVITY, getString(R.string.msg_did_not_receive_body))
                         return
                     }
                     fullUrlButton.setOnClickListener {
@@ -83,8 +79,8 @@ class SecondRestaurantActivity : AppCompatActivity() {
                     }
                 }
 
-                override fun onFailure(call: Call<YelpRestaurantResult>, t: Throwable) {
-                    Log.d(TAG, getString(R.string.msg_failure), t)
+                override fun onFailure(call: Call<YelpCoffeeShopDetailResult>, t: Throwable) {
+                    Log.d(TAG_SECOND_ACTIVITY, getString(R.string.msg_failure), t)
                 }
             })
     }

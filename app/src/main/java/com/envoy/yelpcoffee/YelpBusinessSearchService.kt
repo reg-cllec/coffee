@@ -1,4 +1,4 @@
-package com.kathleenwang.simpleyelp
+package com.envoy.yelpcoffee
 
 import retrofit2.Call
 import retrofit2.http.GET
@@ -6,13 +6,12 @@ import retrofit2.http.Header
 import retrofit2.http.Query
 
 
-public interface YelpBusinessSearchService {
+interface YelpBusinessSearchService {
     @GET("businesses/search")
-    fun searchRestaurant(
+    fun searchCoffeeShop(
         @Header("Authorization") authorization: String,
         @Query("term") searchTerm :String,
         @Query("location") location:String,
-        @Query("limit") limit:String) :
-            // what we get back:
-            Call<YelpSearchResult>
+        @Query("limit") limit:String,
+        @Query("offset") offset:String) : Call<YelpSearchResult>
 }

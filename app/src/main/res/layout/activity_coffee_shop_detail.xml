@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="10dp"
-    tools:context=".SecondRestaurantActivity">
+    tools:context="com.envoy.yelpcoffee.CoffeeShopDetailActivity">
 
     <TextView
         android:id="@+id/secondtvName"

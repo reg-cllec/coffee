@@ -5,4 +5,6 @@
     <string name="num_reviews">%1d reviews</string>
     <string name="open">Open</string>
     <string name="closed">Closed</string>
+    <string name="no_more">No more coffee shops to load</string>
+    <string name="network_error">Network error</string>
 </resources>

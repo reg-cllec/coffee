@@ -11,8 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SimpleYelp">
-        <activity android:name=".SecondRestaurantActivity" />
-        <activity android:name=".RestaurantActivity">
+        <activity android:name="com.envoy.yelpcoffee.CoffeeShopDetailActivity" />
+        <activity android:name="com.envoy.yelpcoffee.CoffeeShopListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

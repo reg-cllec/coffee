@@ -1,4 +1,4 @@
-package com.kathleenwang.simpleyelp
+package com.envoy.yelpcoffee
 
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
@@ -6,15 +6,15 @@ import kotlinx.android.parcel.Parcelize
 
 // serializedName is part of gson for gson annotation to work
 // dont need to specify serialized name if it exactly matches the json parameter
-data class YelpRestaurantResult(val url: String, val display_phone: String,val photos: List<String>,val is_closed: Boolean, val address1: String)
+data class YelpCoffeeShopDetailResult(val url: String, val display_phone: String, val photos: List<String>, val is_closed: Boolean, val address1: String)
 
 data class YelpSearchResult (
     @SerializedName("total") val total: Int,
-    @SerializedName("businesses") val restaurants: List<YelpRestaurants>
+    @SerializedName("businesses") val coffeeShops: List<YelpCoffeeShops>
         )
 
 @Parcelize
-data class YelpRestaurants (
+data class YelpCoffeeShops (
     val id: String,
     val name: String,
     val rating: Double,

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SimpleYelp.iml" filepath="$PROJECT_DIR$/.idea/modules/SimpleYelp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SimpleYelp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SimpleYelp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/YelpCoffee.iml" filepath="$PROJECT_DIR$/.idea/modules/YelpCoffee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/YelpCoffee.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/YelpCoffee.app.iml" />
     </modules>
   </component>
 </project>
